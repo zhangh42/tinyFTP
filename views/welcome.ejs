@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <script src="/js/jquery.js"></script>
+        <script src="/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="css/wel_style.css">
+        <script src="/js/wel.js"></script>
+    </head>
+
+    <body>
+        <h1 class="text-center">小型文件服务器</h1>
+        <hr />
+        <div class="wel_file_list container">
+            <h3>当前目录文件</h3>
+            <img id="wel_loading" src="images/loading.gif" alt="loading">
+            <div id="files_list"></div>
+            <script>
+                loadFilesList();
+            </script>
+        </div>
+    </body>
+</html>

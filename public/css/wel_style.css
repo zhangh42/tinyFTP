@@ -1,0 +1,23 @@
+
+hr {
+    width: 80%;
+}
+
+.wel_file_list{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#files_list button{
+    border: none;
+    background: none;
+}
+
+/*.li_file{
+    background-size: 10px;
+    background: url("/images/file_icon.png") center left no-repeat;
+}
+
+.li_folder{    
+    background: url("/images/folder_icon.png") center left no-repeat;
+}*/
